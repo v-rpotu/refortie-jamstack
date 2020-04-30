@@ -20,7 +20,7 @@ jobs:
       id: builddeploy
       uses: joslinmicrosoft/staticsitesactionoryx@canary3
       with:
-        azure_pages_api_token: ${{ secrets.AZURE_PAGES_API_TOKEN_ICY_MEADOW_08C0E8004 }}
+        azure_pages_api_token: ${{ secrets.AZURE_PAGES_API_TOKEN_RED_CLIFF_0B94FF704 }}
         repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
         action: 'upload'
         ###### Repository/Build Configurations - These values can be configured to match you app requirements. ######
@@ -38,5 +38,5 @@ jobs:
       id: closepullrequest
       uses: joslinmicrosoft/staticsitesaction@canary2
       with:
-        azure_pages_api_token: ${{ secrets.AZURE_PAGES_API_TOKEN_ICY_MEADOW_08C0E8004 }}
+        azure_pages_api_token: ${{ secrets.AZURE_PAGES_API_TOKEN_RED_CLIFF_0B94FF704 }}
         action: 'close'
